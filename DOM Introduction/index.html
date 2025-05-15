@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Document Object Model</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1 id="first" class="header1">Hello Coder Army</h1>
+    <h2 id="second" class="header1">Topics completed so far : </h2>
+    <ul id="third" class="header2">
+        <li>Computer Networking</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+
+    <script src="./dom.js"></script>
+</body>
+</html>
+
+
+<!-- 
+
+DOM TREE :
+
+window
+|
+document
+|
+html
+│
+├── head
+│   ├── meta (charset="UTF-8")
+│   ├── meta (name="viewport", content="width=device-width, initial-scale=1.0")
+│   ├── title
+│   │   └── "DOM - Document Object Model"
+│   └── link (rel="stylesheet", href="./style.css")
+│
+└── body
+    ├── h1#first.header1
+    │   └── "Hello Coder Army"
+    │
+    ├── h2#second.header1
+    │   └── "Topics completed so far :"
+    │
+    ├── ul#third.header2
+    │   ├── li
+    │   │   └── "Computer Networking"
+    │   ├── li
+    │   │   └── "HTML"
+    │   ├── li
+    │   │   └── "CSS"
+    │   └── li
+    │       └── "JS"
+    │
+    └── script (src="./dom.js")
+
+-->
